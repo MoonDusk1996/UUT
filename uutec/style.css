@@ -1,0 +1,530 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;  
+  transition: color 0.5s;
+  transition: filter 1s;
+  background-color: #313131;
+}
+#conteudo{
+  margin: 0 auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  gap: 100px 50px;
+  grid-template-areas: 
+  "a l" 
+  "s s" 
+  "c i" 
+  "r r";
+  z-index: 0;
+}
+.logotipo{
+  text-align: center;
+  float: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 400px;
+  grid-area: l;
+}
+
+#apresentacao{
+  color: white;
+  text-indent: 10%;
+  text-align: justify;
+  grid-area: a;
+  font-size:medium;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  text-indent: 0;
+  text-align: center;
+  font-size: xx-large;
+}
+h2{
+  color: #27d8ac;
+}
+h3{
+  font-size: x-large;
+}
+#serviços{
+  grid-area: s;
+  text-align: center;
+  scroll-margin-top: 100px;
+
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  
+
+
+  display: inline-block;
+  margin: 50px 2%;
+}
+
+.card .face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+.card .front{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0px 5px 10px black;
+
+}
+.card .front img{
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+}
+.card .front h3{
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  height: 10%;
+  color: white;
+  background: #243D37;
+  text-align: center;
+  color: white;
+  grid-area: a;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  
+  
+  
+
+}
+.card .back{
+  transform:  perspective( 600px) rotateY(180deg);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 20px black;
+
+}
+
+.card .back .button{
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  background-color: #243D37;
+  border-radius: 5px ;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.card .back h3{
+  font-size:  30px;
+  margin-top:  20px;
+  letter-spacing:  2px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  
+  
+
+}
+.card .back p {
+  color: white;
+  margin: 0px 20px;
+  text-align: center;
+  text-align: justify;
+  grid-area: a;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.card:hover .front{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+#serviços h1{
+  color: rgb(39, 216, 172);
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+
+
+#contato{
+  grid-area: c;
+  width: 0px auto;
+  background-color: #2b2b2b;
+  scroll-margin-top: 80px;
+  padding: 25px 0px;
+  height: 500px;
+  
+
+}
+#contato ul li{
+  background-color: #2b2b2b;
+}
+#contato h1{
+  text-align: center;
+  background-color: #2b2b2b;
+  color: #27d8ac;
+  scroll-behavior: smooth;
+  grid-area: c;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#contato h2{
+  text-align: justify;
+  margin: 0px 50px;
+  font-size: large;
+  background-color: #2b2b2b;
+  padding: 50px 0px;
+  color: white;
+}
+#contato h3{
+  margin: 25px 50px;
+  font-size: large;
+  background-color: #2b2b2b;
+  display: inline-block;
+  color: #27d8ac;
+  
+}
+#contato h3 i{
+  color: white;
+  
+}
+
+.caixadecontato{
+  grid-area: i;
+  height: 100%;
+  background-color: rgb(53, 53, 53);
+}
+
+
+.rodape{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(32, 32, 32);
+  grid-area: r;
+}
+.conteiner{
+  display: none;
+}
+.barra{
+  width: 100vw;
+  height: auto;
+  display: inline-block;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 0px 10px black;
+
+}
+.Logo img{
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 13%;  
+  z-index: 3;
+}
+
+
+
+.menulat{
+  padding-right: 10%;
+  color: rgb(39, 216, 172);
+  
+  
+}
+nav ul{
+  transition: none;
+  transition: ease-in-out left .4s;
+  float: right;
+  
+  
+}
+
+nav ul li{
+  padding-left: 30px;
+  padding-top:  30px;
+  padding-bottom: 20px;
+  display: inline-block;
+  transition: color 1s;
+}
+nav ul li a{
+  color: white;
+  font-size:medium;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  transition: color 1s;
+  padding-left: 10px;
+}
+.checkbtn{
+  font-size: 30px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 5px;
+  display: none;
+  max-width: 100%;
+}
+#check{
+  display: none;
+}
+#check:checked ~ ul{
+  left: 50%;
+}
+#check:checked ~ ul{
+  left: 50%;
+}
+
+
+@media (max-width: 1440px){
+  #conteudo{
+    margin: 0 auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    gap: 100px 50px;
+    grid-template-areas: 
+    "a l" 
+    "s s" 
+    "c i" 
+    "r r";
+    z-index: 0;
+  }
+}
+
+
+@media (max-width: 740px){
+
+  
+  #conteudo{
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    grid-template-areas: 
+    "a l" 
+    "s s" 
+    "c c" 
+    "i i"
+    "r r";
+    padding-top: 100px;  
+  }
+  #apresentacao{
+    text-align: justify;
+    grid-area: a;
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+  } 
+
+  .menulat{
+    padding-left: 0%;
+    color: rgb(39, 216, 172);
+    z-index: 1;
+    
+  }
+  #serviços{
+    grid-area: s;
+    text-align: center;
+    scroll-margin-top: 85px;
+  }
+  .card{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 50px 50px;
+    
+  }
+
+  #contato{
+    scroll-margin-top: 80px;
+  }
+  .caixadecontato{
+    grid-area: i;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+  }
+  
+  .Logo{
+    display: none;
+  }
+  .logotipo{
+  filter: none;
+}
+  nav ul{
+    position: fixed;
+    top: 71px;
+    background-color: #313131;
+    height: 100vh;
+    width: 100%;
+    text-align: left;
+    left: 100%;    
+  }
+  
+  nav ul li{
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 25px;
+    line-height: 75px;
+    border-bottom: 1px solid #27d8ac;
+  }
+  nav ul li a{
+    font-size: medium;
+  }
+  #check:checked ~ ul{
+    left: 50%;
+  }
+
+  /*Barra de navegação superior fixa com container*/
+  .conteiner{
+    width: 100%;
+    margin: 0 auto;
+    display:grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    margin: 0px;
+    padding: 0px;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+    background-color: #313131;
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+  }
+  header{
+    margin-left: 0vh;
+    margin-top: 0vh;
+    
+  }
+  #check:checked ~ ul{
+    left: 50%;
+    border-left: 1px solid #27d8ac;
+  
+  }
+  .checkbtn_c{
+    color: #27d8ac;
+    font-size: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .Logo_c{
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  #check_c{
+    display: none;
+  }
+}
+@media (max-width: 490px){
+  #serviços{
+    grid-area: s;
+    text-align: center;
+  
+  }
+  .card{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+    margin: 50px 0px;
+    
+  }
+  #conteudo{
+    margin: 0 auto;
+    width: 75%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;  
+    gap: 25px;
+    grid-template-areas: 
+    "a a" 
+    "l l"
+    "s s" 
+    "c c" 
+    "i i"
+    "r r";
+  }
+  
+  #contato h2{
+    margin: 25px 10px;
+  }
+  #contato h3{
+    margin: 25px 10px;
+  }
+  nav ul li a{
+    font-size: small;
+}
+}
+@media (max-width: 325px){
+
+  #conteudo{
+    margin: 0 auto;
+    width: 75%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;  
+    gap: 25px;
+    grid-template-areas: 
+    "a a" 
+    "l l"
+    "s s" 
+    "c c" 
+    "i i"
+    "r r";
+  }
+    
+
+  nav ul li{
+    padding: 0px 10px;
+  }
+
+  nav ul li a{
+  padding: 0px 10px;
+  font-size: small;
+  }
+}
+@media (max-width: 250px){
+  *{
+  display:none;
+}
+}
