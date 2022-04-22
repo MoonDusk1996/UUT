@@ -304,14 +304,12 @@ nav ul li a{
   max-width: 100%;
 }
 #check{
-  display: none;
+  display: block;
 }
 #check:checked ~ ul{
   left: 50%;
 }
-#check:checked ~ ul{
-  left: 50%;
-}
+
 
 
 @media (max-width: 1440px){
