@@ -6,4 +6,4 @@ const caixa = document.getElementById("check");
 
         
         ativarCheckbox(caixa);
-        console.log("test")
+        console.log("Javascript rodando")
