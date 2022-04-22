@@ -1,2 +1,9 @@
-const caixa = document.getElementById("check").checked = true
+const caixa = document.getElementById("check");
+        
+        function ativarCheckbox(el) {
+            el.checked = false;
+        }
 
+        
+        ativarCheckbox(caixa);
+        console.log("test")

@@ -11,6 +11,7 @@
     <title>Ultra Utility</title>
 </head>
 <body>
+    
     <!--container-->
     <div class="conteiner">
         <header>
@@ -28,7 +29,7 @@
        <label for="check" class="checkbtn">
            <i class="fas fa-bars"></i>
        </label>
-        <label class="Logo">
+        <label class="Logo" onclick="ativarCheckbox(caixa)">
                 <a href="Index.html"> <img src="Images/Logo_50px.png" alt=""></a>
         </label>
     
@@ -156,17 +157,6 @@
         <div class="rodape">  </div>
     </div>
 
-    <script>
-        const caixa = document.getElementById("check");
-        
-        function ativarCheckbox(el) {
-            el.checked = false;
-        }
-
-        
-        ativarCheckbox(caixa);
-
-
-    </script>
+    <script src="global.js"></script>
 </body>
 </html>

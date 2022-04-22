@@ -315,6 +315,7 @@ nav ul li a{
 @media (max-width: 1440px){
   #conteudo{
     margin: 0 auto;
+    width: auto;
     width: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr;

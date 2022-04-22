@@ -17,6 +17,7 @@
     border-radius: 5px;
     overflow: hidden;
     width: auto;
+    grid-area: i;
 
 }
 
@@ -35,11 +36,49 @@
     font-size:medium;
     font-family: 'Roboto', sans-serif;
     grid-area: a;
-    background-color: red;
 }
 .servicesapre h1{
 
 }
 .servicesapre h2{
 
+}
+
+@media (max-width: 1231px){
+    
+.servicescontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "i i a a";
+    gap: 50px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+    
+}
+}
+
+@media (max-width: 790px){
+.servicescontent{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "i"
+    "a";
+    gap: 50px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;  
+}
+.illustration{
+    margin: 0 auto;
+    display: flex;
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: auto;
+    grid-area: i;
+
+}
 }
