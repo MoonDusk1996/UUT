@@ -43,7 +43,7 @@
     </nav>
 
     <!--conteúdo da pagina inicial-->
-    <div id="conteudo">
+    <div id="conteudo" onclick="ativarCheckbox(caixa)">
         <div class="logotipo"> 
             <img src="Images/u.u.png" alt="" a hef="Index.html"> 
         </div>
@@ -160,11 +160,13 @@
         const caixa = document.getElementById("check");
         
         function ativarCheckbox(el) {
-            el.checked = true;
+            el.checked = false;
         }
 
         
         ativarCheckbox(caixa);
+
+
     </script>
 </body>
 </html>

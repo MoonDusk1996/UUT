@@ -304,7 +304,7 @@ nav ul li a{
   max-width: 100%;
 }
 #check{
-  display: block;
+  display: none;
 }
 #check:checked ~ ul{
   left: 50%;
