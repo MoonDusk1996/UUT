@@ -4,8 +4,8 @@
 
 
 *{
-  margin: 0px;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style: none;  
   transition: color 0.5s;
@@ -63,13 +63,10 @@ h3{
   grid-area: s;
   text-align: center;
   scroll-margin-top: 100px;
-  background-color: #2b2b2b;
   
 
 }
-#serviços h1{
-  background-color: #2b2b2b;
-}
+
 .card{
   position: relative;
   width: 300px;
@@ -469,15 +466,14 @@ nav ul li a{
   }
   .card{
     position: relative;
-    width: 100%;
-    height: 450px;
-    display: inline-block;
+    width: 95%;
+    height: 350px;
     margin: 50px 0px;
     
   }
   #conteudo{
     margin: 0 auto;
-    width: 75%;
+    width: 90%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -507,7 +503,7 @@ nav ul li a{
 
   #conteudo{
     margin: 0 auto;
-    width: 75%;
+    width: 90%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -518,6 +514,7 @@ nav ul li a{
     "l l"
     "s s" 
     "c c" 
+    "w w" 
     "i i"
     "r r";
   }
@@ -531,6 +528,14 @@ nav ul li a{
   padding: 0px 10px;
   font-size: small;
   }
+.card .front img{
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;
+
+}
+
 }
 @media (max-width: 250px){
   *{
