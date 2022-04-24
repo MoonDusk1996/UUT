@@ -12,6 +12,34 @@
   transition: filter 1s;
   background-color: #313131;
 }
+.ate span{
+  color: white;
+  font-size:medium;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  transition: color 1s;
+  padding-left: 10px;
+  font-weight:normal;
+  border-bottom: none
+}
+.botãodeatendimento{
+  background-color: white;
+  border: none;
+  padding: 15px 60px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  
+}
+
+.menudeplataformas{
+  display: none;
+  
+}
+.menudeplataformas ul li{
+  border-bottom: 5px solid red;
+}
 #conteudo{
   margin: 0 auto;
   width: 60%;
@@ -307,7 +335,11 @@ nav ul li a{
   left: 50%;
 }
 
-
+#checkate{
+  display: none;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 1440px){
   #conteudo{
@@ -354,7 +386,40 @@ nav ul li a{
     font-family: 'Roboto', sans-serif;
   } 
 
+
+  .menudeplataformas{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: block;
+
+    border-bottom: 1px solid red;
+    
+  }
+  .menudeplataformas ul, .menudeplataformas li, .menudeplataformas i, .menudeplataformas a{
+    background-color: white;
+  }
+
+  .menudeplataformas a{
+    color: black;
+    
+  }
+
+
+  #checkate:checked ~ .menudeplataformas{
+    top: 50%;
+
+  }
+ 
+  .button{
+    background-color: none;
+    border: none;
+  }
   .menulat{
+    height: 100%;
     padding-left: 0%;
     color: rgb(39, 216, 172);
     z-index: 1;
@@ -410,6 +475,7 @@ nav ul li a{
   nav ul li a{
     font-size: medium;
   }
+ 
   #check:checked ~ ul{
     left: 50%;
   }
@@ -528,6 +594,7 @@ nav ul li a{
   padding: 0px 10px;
   font-size: small;
   }
+
 .card .front img{
   width: 100%;
   height: 100%;
