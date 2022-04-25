@@ -3,8 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "i t"
-    "a a"
-    "p p";
+    "a p";
     gap: 50px;
     width: 75%;
     margin: 0 auto;
@@ -31,15 +30,24 @@
 }
 
 .textotitulo{
+    margin-top: 10px;
     grid-area: t;
     align-self: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-transform: uppercase;
     color: #27d8ac;
+    font-weight: bolder;
+    font-size: larger;
+    border-bottom: 1px solid #27d8ac;
+    
+    
+    
     
 
 }
 .textotitulo h1{
-    border-radius: 10px;
-    height: 75px;
+    
 
 }
 .servicesapre{
@@ -108,15 +116,16 @@ margin-bottom: 100px;
     "a"
     "p";
     width: 90%;
+    gap: 5px;
 }
 .illustration{
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
     
 }
 .textotitulo{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 }
 @media (max-width: 350px){
