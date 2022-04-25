@@ -9,21 +9,18 @@ const caixa = document.getElementById("check");
         console.log("Javascript rodando")
 
 
-        let touchstartX = 0
-        let touchendX = 0
+
+
+
+
+
+const caixa2 = document.getElementById("checkate");
         
-        const slider = document.getElementById('slider')
-        
-        function handleGesture() {
-          if (touchendX < touchstartX) alert('swiped left!')
-          if (touchendX > touchstartX) alert('swiped right!')
+        function ativarCheckbox2(el2) {
+            el2.checked = false;
+            
         }
+
+        console.log("Javascript rodando2")
+        ativarCheckbox2(caixa2);
         
-        slider.addEventListener('touchstart', e => {
-          touchstartX = e.changedTouches[0].screenX
-        })
-        
-        slider.addEventListener('touchend', e => {
-          touchendX = e.changedTouches[0].screenX
-          handleGesture()
-        })

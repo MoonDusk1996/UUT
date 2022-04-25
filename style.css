@@ -22,21 +22,31 @@
   font-weight:normal;
   border-bottom: none
 }
-.botãodeatendimento{
+.zap{
   background-color: white;
   border: none;
-  padding: 15px 60px;
+  padding: 15px 0px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   
   
 }
-
+.instagram{
+  background-color: white;
+  border: none;
+  padding: 15px 0px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  
+}
 .menudeplataformas{
   display: none;
   
 }
+
 .menudeplataformas ul li{
   border-bottom: 5px solid red;
 }
@@ -395,17 +405,23 @@ nav ul li a{
     width: 100%;
     background-color: white;
     display: block;
-
     border-bottom: 1px solid red;
+    color: black;
+
     
+  }
+  .menudeplataformas nav{
+    background-color: white;
+    margin-left: 3%;
+    font-style: arial;
   }
   .menudeplataformas ul, .menudeplataformas li, .menudeplataformas i, .menudeplataformas a{
     background-color: white;
-  }
-
-  .menudeplataformas a{
     color: black;
-    
+
+  }
+  .menudeplataformas i{
+    color:black
   }
 
 
@@ -554,7 +570,7 @@ nav ul li a{
     "i i"
     "r r";
   }
-  
+
   #contato h2{
     margin: 25px 10px;
   }
