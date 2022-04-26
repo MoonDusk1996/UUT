@@ -77,11 +77,12 @@
 }
 
 #apresentacao{
+
   color: white;
   text-indent: 10%;
   text-align: justify;
   grid-area: a;
-  font-size:medium;
+  font-size:  medium;
   font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -223,14 +224,16 @@ h3{
 
 #contato{
   grid-area: c;
-  width: 0px auto;
   scroll-margin-top: 80px;
   padding: 25px 0px;
-  height: 500px;
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+
   
 
 }
 #contato h1{
+  background-color: rgb(36, 36, 36);
   text-align: center;
   color: #27d8ac;
   scroll-behavior: smooth;
@@ -242,13 +245,14 @@ h3{
 }
 
 #contato h2{
+  background-color: rgb(36, 36, 36);
   text-align: justify;
-  margin: 0px 50px;
   font-size: large;
   padding: 50px 0px;
   color: white;
 }
 #contato h3{
+  background-color: rgb(36, 36, 36);
   margin: 25px 50px;
   font-size: large;
 
@@ -257,8 +261,12 @@ h3{
   
 }
 #contato h3 i{
+  background-color: rgb(36, 36, 36);
   color: white;
   
+}
+#contato ul li {
+  background-color: rgb(36, 36, 36);
 }
 
 .trabalheconosco{
@@ -375,7 +383,7 @@ nav ul li a{
   
   #conteudo{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -389,6 +397,8 @@ nav ul li a{
     padding-top: 100px;  
   }
   #apresentacao{
+    width: 90%;
+    margin: auto;
     text-align: justify;
     grid-area: a;
     font-size:medium;
@@ -446,6 +456,7 @@ nav ul li a{
     text-align: center;
     scroll-margin-top: 85px;
     
+    
   }
   .card{
     position: relative;
@@ -458,6 +469,7 @@ nav ul li a{
 
   #contato{
     scroll-margin-top: 80px;
+
   }
   .caixadecontato{
     grid-area: i;
@@ -546,6 +558,7 @@ nav ul li a{
     text-align: center;
   
   }
+ 
   .card{
     position: relative;
     width: 95%;
@@ -554,8 +567,8 @@ nav ul li a{
     
   }
   #conteudo{
-    margin: 0 auto;
-    width: 90%;
+    margin: auto;
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -570,7 +583,10 @@ nav ul li a{
     "i i"
     "r r";
   }
-
+  #apresentacao{
+    width: 90vw;
+    margin: 0 auto;
+  }
   #contato h2{
     margin: 25px 10px;
   }
