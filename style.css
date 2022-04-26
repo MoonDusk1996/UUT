@@ -226,14 +226,7 @@ h3{
   grid-area: c;
   scroll-margin-top: 80px;
   padding: 25px 0px;
-  background-color: rgb(36, 36, 36);
   width: 100%;
-
-  
-
-}
-#contato h1{
-  background-color: rgb(36, 36, 36);
   text-align: center;
   color: #27d8ac;
   scroll-behavior: smooth;
@@ -241,44 +234,60 @@ h3{
   text-transform: uppercase;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
+  background-color: #1d1d1d;
   
-}
 
-#contato h2{
-  background-color: rgb(36, 36, 36);
+}
+#contato p{
+  padding-top: 20px;
+  color: white;
+  background-color: #1d1d1d;
+  font-size: medium;
   text-align: justify;
-  font-size: large;
-  padding: 50px 0px;
-  color: white;
+  width: 90%;
+  margin: auto;
+  font-weight: 500;
 }
-#contato h3{
-  background-color: rgb(36, 36, 36);
-  margin: 25px 50px;
-  font-size: large;
 
-  display: inline-block;
-  color: #27d8ac;
-  
+#contato i{
+  background-color: #1d1d1d;
 }
-#contato h3 i{
-  background-color: rgb(36, 36, 36);
-  color: white;
+#contato li{
+  padding-top: 20px;
+  background-color: #1d1d1d;
+  font-size: medium;
   
-}
-#contato ul li {
-  background-color: rgb(36, 36, 36);
 }
 
 .trabalheconosco{
+  padding: 25px 0px;
   grid-area: i;
-  height: 100%;
-
+  scroll-margin-top: 80px;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: #27d8ac;
+  scroll-behavior: smooth;
+  grid-area: c;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1d1d1d;
+  
 }
 
-.firula{
-  grid-area: w;
-
+.trabalheconosco h2{
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  color: white;
+  font-size: medium;
+  text-align: justify;
+  background-color: #1d1d1d;
+  font-weight:500;
 }
+
+
 
 
 .rodape{
