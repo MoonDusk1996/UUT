@@ -81,10 +81,10 @@
   text-transform: uppercase;
   width: 50%;
   margin: auto;
-  line-height: 30px;
   align-items: center;
   align-self: center;
   align-content: center;
+  padding-top: 50px;
 }
 .logotipo small{
   font-size: large;
@@ -297,13 +297,8 @@ h3{
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
   background-color: #272727;
-  
 }
-.trabalheconosco h1{
-  width: 50%;
-  background-color: #272727;
-  margin: auto;
-}
+
 .trabalheconosco h2{
   width: 50%;
   margin: auto;
@@ -314,8 +309,17 @@ h3{
   background-color: #272727;
   font-weight:500;
 }
-
-
+.trabalheconosco p{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  background-color: #272727;
+  font-size: medium;
+}
+.trabalheconosco i{
+  background-color: #272727;
+}
 
 
 
@@ -498,9 +502,16 @@ nav ul li a{
   #contato li{
     width: 90%;
   }
-  .trabalheconosco h1, .trabalheconosco h2{
-    width: 90%;
+
+  .trabalheconosco a, .trabalheconosco h2{
+    width: 90vw;
+    margin: auto;
   }
+  .trabalheconosco p{
+   width: 90%;
+   background-color: #272727;
+  }
+  
   .caixadecontato{
     grid-area: i;
     height: 100vh;
