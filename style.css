@@ -482,6 +482,15 @@ nav ul li a{
 
 
   }
+  #contato p{
+    width: 90%;
+  }
+  #contato li{
+    width: 90%;
+  }
+  .trabalheconosco h2{
+    width: 90%;
+  }
   .caixadecontato{
     grid-area: i;
     height: 100vh;
