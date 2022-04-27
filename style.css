@@ -14,7 +14,6 @@
 }
 .ate span{
   color: white;
-  font-size: small;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   transition: color 1s;
@@ -68,6 +67,7 @@
   align-self: center;
   grid-area: l;
   text-align: center;
+  padding-top: 50px;
   
 
 }
