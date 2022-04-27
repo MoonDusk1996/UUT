@@ -56,7 +56,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
-  gap: 25px 50px;
   grid-template-areas: 
   "a l" 
   "s s" 
@@ -69,8 +68,27 @@
   align-self: center;
   grid-area: l;
   text-align: center;
-}
 
+}
+.logotipo p{
+  
+  
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  width: 90%;
+  margin: auto;
+  line-height: 30px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.logotipo small{
+  font-size: large;
+  color: #27d8ac;
+}
 #apresentacao{
   width: 75%;
   margin: 0 auto;
@@ -96,6 +114,7 @@ h3{
   font-size: x-large;
 }
 #serviços{
+  margin-top: 50px;
   grid-area: s;
   text-align: center;
   scroll-margin-top: 100px;
@@ -111,7 +130,7 @@ h3{
 
 
   display: inline-block;
-  margin: 50px 2%;
+  margin: 10px 10px;
 }
 
 .card .face{
@@ -220,10 +239,10 @@ h3{
 
 
 #contato{
+  width: 100vw auto;
   grid-area: c;
   scroll-margin-top: 80px;
   padding: 25px 0px;
-  width: 100%;
   text-align: center;
   color: #27d8ac;
   scroll-behavior: smooth;
@@ -231,14 +250,14 @@ h3{
   text-transform: uppercase;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
-  background-color: #1d1d1d;
+  background-color: #272727;
   
 
 }
 #contato p{
   padding-top: 20px;
   color: white;
-  background-color: #1d1d1d;
+  background-color: #272727;
   font-size: medium;
   text-align: justify;
   width: 50%;
@@ -247,19 +266,19 @@ h3{
 }
 
 #contato i{
-  background-color: #1d1d1d;
+  background-color: #272727;
 }
 #contato li{
   text-align: left;
   margin: auto;
   width: 50%;
   padding-top: 20px;
-  background-color: #1d1d1d;
+  background-color: #272727;
   font-size: medium;
   
 }
 #contato ul{
-  background-color: #1d1d1d;
+  background-color: #272727;
 }
 
 .trabalheconosco{
@@ -275,7 +294,7 @@ h3{
   text-transform: uppercase;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
-  background-color: #1d1d1d;
+  background-color: #272727;
   
 }
 
@@ -286,7 +305,7 @@ h3{
   color: white;
   font-size: medium;
   text-align: justify;
-  background-color: #1d1d1d;
+  background-color: #272727;
   font-weight:500;
 }
 
@@ -294,12 +313,11 @@ h3{
 
 
 .rodape{
-
-  width: 100%;
-
-  height: 200px;
+  margin-top: 50px;
+  height: 100px;
   background-color: rgb(32, 32, 32);
   grid-area: r;
+ 
 
 }
 .conteiner{
@@ -373,36 +391,11 @@ nav ul li a{
   padding: 0;
 }
 
-@media (max-width: 1440px){
-  #conteudo{
-    margin: 0 auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 100px;
-    grid-template-areas: 
-    "a l" 
-    "s s" 
-    "c i"
-    "c w" 
-    "r r";
-    z-index: 0;
-  }
-  
-  #apresentacao{
-    width: 100%;
-  }
-}
-
 
 @media (max-width: 740px){
 
   
   #conteudo{
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "a l" 
@@ -480,13 +473,13 @@ nav ul li a{
     width: 400px;
     height: 400px;
     display: inline-block;
-    margin: 50px 50px;
+    
     
   }
 
   #contato{
     scroll-margin-top: 80px;
-    width: 100vw;
+
 
   }
   .caixadecontato{
@@ -591,7 +584,6 @@ nav ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 100px;  
-    gap: 25px;
     grid-template-areas: 
     "a a" 
     "l l"
@@ -625,7 +617,6 @@ nav ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 100px;  
-    gap: 25px;
     grid-template-areas: 
     "a a" 
     "l l"
