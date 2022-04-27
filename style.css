@@ -19,7 +19,7 @@
   text-transform: uppercase;
   transition: color 1s;
   padding-left: 10px;
-  font-weight:normal;
+  font-weight: normal;
   border-bottom: none
 }
 .zap{
@@ -68,17 +68,18 @@
   align-self: center;
   grid-area: l;
   text-align: center;
+  
 
 }
 .logotipo p{
   
-  
+
   color: white;
   font-size: large;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  width: 90%;
+  width: 50%;
   margin: auto;
   line-height: 30px;
   align-items: center;
@@ -157,9 +158,9 @@ h3{
 }
 .card .front h3{
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   width: 100%;
-  height: 10%;
+  padding: 10px 0px;
   color: white;
   background: #243D37;
   text-align: center;
@@ -168,6 +169,7 @@ h3{
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+
   
   
   
@@ -297,7 +299,11 @@ h3{
   background-color: #272727;
   
 }
-
+.trabalheconosco h1{
+  width: 50%;
+  background-color: #272727;
+  margin: auto;
+}
 .trabalheconosco h2{
   width: 50%;
   margin: auto;
@@ -308,6 +314,7 @@ h3{
   background-color: #272727;
   font-weight:500;
 }
+
 
 
 
@@ -406,6 +413,9 @@ nav ul li a{
     "r r";
     padding-top: 100px;  
   }
+  .logotipo p{
+    width: 90%
+  }
   #apresentacao{
     width: 90%;
     margin: none;
@@ -488,7 +498,7 @@ nav ul li a{
   #contato li{
     width: 90%;
   }
-  .trabalheconosco h2{
+  .trabalheconosco h1, .trabalheconosco h2{
     width: 90%;
   }
   .caixadecontato{
