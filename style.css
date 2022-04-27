@@ -14,7 +14,7 @@
 }
 .ate span{
   color: white;
-  font-size:medium;
+  font-size: small;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   transition: color 1s;
@@ -298,7 +298,9 @@ h3{
   font-family: 'Roboto', sans-serif;
   background-color: #272727;
 }
-
+.trabalheconosco h1{
+  background-color: #272727;
+}
 .trabalheconosco h2{
   width: 50%;
   margin: auto;
@@ -503,14 +505,11 @@ nav ul li a{
     width: 90%;
   }
 
-  .trabalheconosco a, .trabalheconosco h2{
-    width: 90vw;
+  .trabalheconosco h1, .trabalheconosco h2, .trabalheconosco p{
+    width: 90%;
     margin: auto;
   }
-  .trabalheconosco p{
-   width: 90%;
-   background-color: #272727;
-  }
+
   
   .caixadecontato{
     grid-area: i;
