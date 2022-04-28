@@ -6,13 +6,11 @@
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   transition: all .5s;
-  padding-left: 30px;
+  padding-left: 5px;
   font-weight: normal;
   border-bottom: none
 }
-i{
-  margin-right: 25px;
-}
+
 #insta{
   color: transparent;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
