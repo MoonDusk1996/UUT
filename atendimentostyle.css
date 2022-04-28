@@ -55,15 +55,15 @@ i{
 
   .menudeplataformas{
     position: fixed;
-    top: 100%;
+    top: 100vh;
     left: 0;
-    height: 50%;
     width: 100%;
     background-color: white;
     display: block;
     border-bottom: 1px solid red;
     color: black;
     transition: .5s;
+    margin: 0 auto;
     
   }
 
