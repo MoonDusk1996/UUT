@@ -1,0 +1,89 @@
+.menudeplataformas{
+  display: none;
+}
+.ate span{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  transition: all .5s;
+  padding-left: 30px;
+  font-weight: normal;
+  border-bottom: none
+}
+i{
+  margin-right: 25px;
+}
+#insta{
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#zap{
+  color: green;
+}
+#fm{
+  color: blue;
+}
+.zap{
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+.instagram{
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.messenger{
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (max-width: 740px){
+
+  .menudeplataformas{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: block;
+    border-bottom: 1px solid red;
+    color: black;
+    transition: .5s;
+    
+  }
+
+  .menudeplataformas nav{
+    background-color: white;
+    margin-left: 3%;
+    font-style: arial;
+  }
+  .menudeplataformas ul, .menudeplataformas li, .menudeplataformas i, .menudeplataformas a{
+    background-color: white;
+    color: black;
+
+  }
+  .menudeplataformas i{
+    color:black
+  }
+
+
+  #checkate:checked ~ .menudeplataformas{
+    top: 50%;
+  }
+
+}

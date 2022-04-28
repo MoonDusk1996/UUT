@@ -12,43 +12,8 @@
   transition: filter 1s;
   background-color: #313131;
 }
-.ate span{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  transition: color 1s;
-  padding-left: 10px;
-  font-weight: normal;
-  border-bottom: none
-}
-.zap{
-  background-color: white;
-  border: none;
-  padding: 15px 0px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
-  
-}
-.instagram{
-  background-color: white;
-  border: none;
-  padding: 15px 0px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
-  
-}
-.menudeplataformas{
-  display: none;
-  
-}
 
-.menudeplataformas ul li{
-  border-bottom: 5px solid red;
-}
+
 #conteudo{
   margin: 0 auto;
   width: 100vw;
@@ -72,8 +37,6 @@
 
 }
 .logotipo p{
-  
-
   color: white;
   font-size: large;
   font-weight: bold;
@@ -115,6 +78,8 @@ h3{
   font-size: x-large;
 }
 #serviços{
+  margin: auto;
+  width: 90%;
   margin-top: 50px;
   grid-area: s;
   text-align: center;
@@ -431,41 +396,6 @@ nav ul li a{
     font-family: 'Roboto', sans-serif;
   } 
 
-
-  .menudeplataformas{
-    position: fixed;
-    top: 100%;
-    left: 0;
-    height: 50%;
-    width: 100%;
-    background-color: white;
-    display: block;
-    border-bottom: 1px solid red;
-    color: black;
-    transition: .5s;
-    
-  }
-  .menudeplataformas nav{
-    background-color: white;
-    margin-left: 3%;
-    font-style: arial;
-  }
-  .menudeplataformas ul, .menudeplataformas li, .menudeplataformas i, .menudeplataformas a{
-    background-color: white;
-    color: black;
-
-  }
-  .menudeplataformas i{
-    color:black
-  }
-
-
-  #checkate:checked ~ .menudeplataformas{
-    top: 50%;
-    
-
-  }
-
   .button{
     background-color: none;
     border: none;
@@ -478,6 +408,7 @@ nav ul li a{
     
   }
   #serviços{
+    width: 100%;
     grid-area: s;
     text-align: center;
     scroll-margin-top: 85px;
