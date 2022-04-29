@@ -337,14 +337,12 @@ nav ul li{
   padding-top:  30px;
   padding-bottom: 20px;
   display: inline-block;
-  transition: color 1s;
 }
 nav ul li a{
   color: white;
   font-size:medium;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  transition: color 1s;
   padding-left: 10px;
 }
 .checkbtn{

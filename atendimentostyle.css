@@ -1,14 +1,27 @@
 .menudeplataformas{
   display: none;
 }
-.ate span{
-  color: white;
+.atesite{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  transition: all .5s;
   padding-left: 5px;
   font-weight: normal;
-  border-bottom: none
+  border-bottom: none;
+  background-color: none;
+  border: none;
+  display: block;
+}
+
+.ate span{
+  display: none;
+}
+.atesite i{
+  color: #27d8ac;
+  display: inline-block;
+  margin-right: 10px;
+}
+.ate i{
+  display: none;
 }
 
 #insta{
@@ -50,6 +63,33 @@
 }
 
 @media (max-width: 740px){
+  .atesite{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-left: 5px;
+    font-weight: normal;
+    border-bottom: none;
+    background-color: none;
+    border: none;
+    display: none;
+  }
+  .ate span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-left: 5px;
+    font-weight: normal;
+    border-bottom: none;
+    display: inline;
+  }
+  .atesite i{
+    display: none;
+  }
+  .ate i{
+    display: inline-block;
+
+  }
 
   .menudeplataformas{
     position: fixed;
@@ -64,6 +104,7 @@
     margin: 0 auto;
     
   }
+  
 
   .menudeplataformas nav{
     background-color: white;
