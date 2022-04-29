@@ -98,14 +98,15 @@
     width: 100%;
     background-color: white;
     display: block;
-    border-bottom: 1px solid red;
     color: black;
     transition: .5s;
     margin: 0 auto;
     
   }
   
-
+.menudeplataformas i{
+  padding-right: 50px;
+}
   .menudeplataformas nav{
     background-color: white;
     margin-left: 3%;
