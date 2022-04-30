@@ -10,21 +10,21 @@
   list-style: none;  
   transition: color 0.5s;
   transition: filter 1s;
-  background-color: #313131;
+  background-color: #36393F;
 }
 
 
 #conteudo{
   margin: 0 auto;
-  width: 100vw;
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
   grid-template-areas: 
   "a l" 
   "s s" 
-  "c i"
-  "c w" 
+  "c c"
+  "w w"
   "r r";
   z-index: 0;
 }
@@ -33,30 +33,29 @@
   grid-area: l;
   text-align: center;
   padding-top: 50px;
-  
-
-}
-.logotipo p{
-  color: white;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  width: 50%;
+  width: 75%;
   margin: auto;
   align-items: center;
   align-self: center;
   align-content: center;
-  padding-top: 50px;
+  line-height: 25px;
+
 }
-.logotipo small{
-  font-size: large;
+.logotipo p{
+  color: white;
+  margin-top: 50px;
+}
+
+.logotipo span{
   color: #27d8ac;
 }
 #apresentacao{
   width: 75%;
   margin: 0 auto;
-  margin-right: 10px;
   color: white;
   text-indent: 10%;
   text-align: justify;
@@ -72,11 +71,12 @@ h1{
 
 }
 h2{
+  color: #ffffff;
+}
+h2 div{
   color: #27d8ac;
 }
-h3{
-  font-size: x-large;
-}
+
 #serviços{
   margin: auto;
   width: 90%;
@@ -92,7 +92,7 @@ h3{
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: #303030;
+  background-color: #36393F;
 
 
   display: inline-block;
@@ -117,29 +117,30 @@ h3{
 .card .front img{
   width: 100%;
   height: 100%;
-
   object-fit: cover;
 
 }
+
 .card .front h3{
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  padding: 10px 0px;
-  color: white;
-  background: #243D37;
-  text-align: center;
-  color: white;
   grid-area: a;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  background: #717e7b;
+  color: white;
+  text-shadow: 1px 1px black;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 
-  
-  
   
 
 }
+
 .card .back{
   transform:  perspective( 600px) rotateY(180deg);
   box-shadow: 0px -5px 5px #162522;
@@ -153,25 +154,27 @@ h3{
 }
 
 .card .back .button{
-  color: white;
+  color: rgb(255, 255, 255);
   height: 50px;
   line-height: 50px;
-  background-color: #243D37;
-  border-radius: 5px ;
+  background-color: #717e7b;
   font-size: x-large;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 
 .card .back h3{
-  font-size:  30px;
+  font-size: large;
   margin-top:  20px;
   letter-spacing:  2px;
   margin-bottom: 5px;
-  color: white;
+  color: #27d8ac;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  
+
   
   
 
@@ -184,6 +187,7 @@ h3{
   grid-area: a;
   font-size: medium;
   font-family: 'Roboto', sans-serif;
+  
 
 }
 
@@ -206,25 +210,23 @@ h3{
 
 
 #contato{
-  width: 100vw auto;
+  margin-top: 100px;
   grid-area: c;
   scroll-margin-top: 80px;
-  padding: 25px 0px;
   text-align: center;
   color: #27d8ac;
   scroll-behavior: smooth;
-  grid-area: c;
   text-transform: uppercase;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
-  background-color: #272727;
+  background-color: #4c5553;
   
 
 }
 #contato p{
   padding-top: 20px;
   color: white;
-  background-color: #272727;
+  background-color: #4c5553;
   font-size: medium;
   text-align: justify;
   width: 50%;
@@ -233,37 +235,36 @@ h3{
 }
 
 #contato i{
-  background-color: #272727;
+  background-color: #4c5553;
 }
 #contato li{
   text-align: left;
   margin: auto;
   width: 50%;
   padding-top: 20px;
-  background-color: #272727;
+  background-color: #4c5553;
   font-size: medium;
   
 }
 #contato ul{
-  background-color: #272727;
+  background-color: #4c5553;
 }
 
 .trabalheconosco{
   padding: 25px 0px;
-  grid-area: i;
   scroll-margin-top: 80px;
   margin-top: 50px;
   text-align: center;
   color: #27d8ac;
   scroll-behavior: smooth;
-  grid-area: c;
+  grid-area: w;
   text-transform: uppercase;
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
-  background-color: #272727;
+  background-color: #4c5553;
 }
 .trabalheconosco h1{
-  background-color: #272727;
+  background-color: #4c5553;
 }
 .trabalheconosco h2{
   width: 50%;
@@ -272,7 +273,7 @@ h3{
   color: white;
   font-size: medium;
   text-align: justify;
-  background-color: #272727;
+  background-color: #4c5553;
   font-weight:500;
 }
 .trabalheconosco p{
@@ -280,11 +281,11 @@ h3{
   margin: auto;
   width: 50%;
   padding-top: 20px;
-  background-color: #272727;
+  background-color: #4c5553;
   font-size: medium;
 }
 .trabalheconosco i{
-  background-color: #272727;
+  background-color: #4c5553;
 }
 
 
@@ -301,8 +302,8 @@ h3{
   display: none;
 }
 .barra{
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  margin: 0 auto;
   display: inline-block;
   z-index: 1;
   position: fixed;
@@ -376,19 +377,18 @@ nav ul li a{
     "a l" 
     "s s" 
     "c c" 
-    "c w" 
-    "i i"
+    "w w" 
     "r r";
     padding-top: 100px;  
   }
   .logotipo p{
-    width: 90%
+    width: 100%;
+    
   }
   #apresentacao{
     width: 90%;
     margin: none;
     text-align: justify;
-    grid-area: a;
     font-size:medium;
     font-family: 'Roboto', sans-serif;
   } 
@@ -406,7 +406,6 @@ nav ul li a{
   }
   #serviços{
     width: 100%;
-    grid-area: s;
     text-align: center;
     scroll-margin-top: 85px;
     
@@ -438,12 +437,6 @@ nav ul li a{
     margin: auto;
   }
 
-  
-  .caixadecontato{
-    grid-area: i;
-    height: 100vh;
-    background-color: rgb(37, 37, 37);
-  }
   
   .Logo{
     display: none;
@@ -522,7 +515,6 @@ nav ul li a{
 }
 @media (max-width: 490px){
   #serviços{
-    grid-area: s;
     text-align: center;
   
   }
@@ -547,7 +539,6 @@ nav ul li a{
     "s s" 
     "c c" 
     "w w" 
-    "i i"
     "r r";
   }
   #apresentacao{
@@ -580,7 +571,6 @@ nav ul li a{
     "s s" 
     "c c" 
     "w w" 
-    "i i"
     "r r";
   }
     

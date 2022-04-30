@@ -1,3 +1,4 @@
+
 .menudeplataformas{
   display: none;
 }
@@ -7,10 +8,11 @@
   padding-left: 5px;
   font-weight: normal;
   border-bottom: none;
-  background-color: none;
   border: none;
   display: block;
+  background-color: transparent;
 }
+
 
 .ate span{
   display: none;
@@ -93,7 +95,7 @@
 
   .menudeplataformas{
     position: fixed;
-    top: 100vh;
+    top: 100%;
     left: 0;
     width: 100%;
     background-color: white;
