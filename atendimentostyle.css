@@ -1,5 +1,5 @@
 nav ul li li {
-  border-bottom: 1px solid black;
+  border: 1px solid #27d8ac;
 }
 li li a {
   padding: 25px 200px;
