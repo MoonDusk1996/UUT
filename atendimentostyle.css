@@ -1,3 +1,6 @@
+nav ul li li {
+  border-bottom: 1px solid black;
+}
 li li a {
   padding: 25px 200px;
   text-align: left;
