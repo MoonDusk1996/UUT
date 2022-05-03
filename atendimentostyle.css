@@ -1,12 +1,9 @@
 li li a{
   padding: 25px 200px;
-  background-color: red;
   text-align: left;
 }
-
 .menudeplataformas{
   display: none;
-  display: inline-block;
 }
 .atesite{
   font-family: 'Roboto', sans-serif;
@@ -49,8 +46,8 @@ li li a{
   background-color: white;
   border: none;
   text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  box-sizing: content-box;
 }
 
 
@@ -59,14 +56,14 @@ li li a{
   background-color: white;
   border: none;
   text-decoration: none;
-
+  display: inline-block;
   font-size: 16px;
 }
 .messenger{
   background-color: white;
   border: none;
   text-decoration: none;
-
+  display: inline-block;
   font-size: 16px;
 }
 
@@ -112,7 +109,9 @@ li li a{
     
   }
   
-
+.menudeplataformas i{
+  padding-right: 50px;
+}
   .menudeplataformas nav{
     background-color: white;
     margin-left: 3%;
