@@ -1,20 +1,8 @@
-nav ul li li {
-  border: 1px solid #27d8ac;
-}
-li li a {
-  padding: 25px 200px;
-  text-align: left;
-}
 .menudeplataformas {
   display: none;
 }
-.menudeplataformas button {
-  text-transform: uppercase;
-}
+
 .atesite {
-  font-family: "Roboto", sans-serif;
-  padding-left: 5px;
-  font-weight: normal;
   border-bottom: none;
   border: none;
   display: block;
@@ -43,14 +31,7 @@ li li a {
     #d6249f 60%,
     #285aeb 90%
   );
-  background: -webkit-radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -60,39 +41,18 @@ li li a {
 #fm {
   color: blue;
 }
-.zap {
-  background-color: white;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.instagram {
-  background-color: white;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.messenger {
-  background-color: white;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
 @media (max-width: 740px) {
-  .atesite {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    padding-left: 5px;
-    font-weight: normal;
-    border-bottom: none;
-    background-color: none;
+  li nav ul li {
     border: none;
+    line-height: 0px;
+    border-bottom: 1px solid #27d8ac;
+  }
+  li nav ul li a {
+    padding-right: 100%;
+  }
+
+  .atesite {
     display: none;
   }
   .ate span {
@@ -100,9 +60,7 @@ li li a {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     padding-left: 5px;
-    font-weight: normal;
-    border-bottom: none;
-    display: inline;
+    display: inline-block;
   }
   .atesite i {
     display: none;
@@ -120,16 +78,21 @@ li li a {
     display: block;
     color: black;
     transition: 0.5s;
-    margin: 0 auto;
+  }
+  .menudeplataformas button {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    line-height: 70px;
   }
 
   .menudeplataformas i {
-    padding-right: 50px;
+    margin-right: 25px;
   }
   .menudeplataformas nav {
     background-color: white;
-    margin-left: 3%;
-    font-style: arial;
+    margin-left: 5%;
   }
   .menudeplataformas ul,
   .menudeplataformas li,
