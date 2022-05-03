@@ -1,41 +1,38 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none;  
+  list-style: none;
   transition: color 0.5s;
   transition: filter 1s;
-  background-color: #36393F;
+  background-color: #36393f;
 }
 
-
-#conteudo{
+#conteudo {
   margin: 0 auto;
   width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
-  grid-template-areas: 
-  "a l" 
-  "s s" 
-  "c c"
-  "w w"
-  "r r";
+  grid-template-areas:
+    "a l"
+    "s s"
+    "c c"
+    "w w"
+    "r r";
   z-index: 0;
 }
-.logotipo{
+.logotipo {
   align-self: center;
   grid-area: l;
   text-align: center;
   padding-top: 50px;
   font-size: medium;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   width: 75%;
   margin: auto;
@@ -43,85 +40,77 @@
   align-self: center;
   align-content: center;
   line-height: 25px;
-
 }
-.logotipo p{
+.logotipo p {
   color: white;
   margin-top: 50px;
 }
 
-.logotipo span{
+.logotipo span {
   color: #27d8ac;
 }
-#apresentacao{
+#apresentacao {
   width: 75%;
   margin: 0 auto;
   color: white;
   text-indent: 10%;
   text-align: justify;
   grid-area: a;
-  font-size:  medium;
-  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
 }
-h1{
+h1 {
   margin-top: 10px;
   text-indent: 0;
   text-align: center;
   font-size: xx-large;
-
 }
-h2{
+h2 {
   color: #ffffff;
 }
-h2 div{
+h2 div {
   color: #27d8ac;
 }
 
-#serviços{
+#serviços {
   margin: auto;
   width: 90%;
   margin-top: 50px;
   grid-area: s;
   text-align: center;
   scroll-margin-top: 100px;
-  
-
 }
 
-.card{
+.card {
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: #36393F;
-
+  background-color: #36393f;
 
   display: inline-block;
   margin: 10px 10px;
 }
 
-.card .face{
+.card .face {
   position: absolute;
   width: 100%;
   height: 100%;
-  
+
   backface-visibility: hidden;
   border-radius: 10px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
-.card .front{
+.card .front {
   transform: perspective(600px) rotateY(0deg);
-
-  
 }
-.card .front img{
+.card .front img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 
-.card .front h3{
+.card .front h3 {
   grid-area: a;
   position: absolute;
   bottom: 5%;
@@ -130,30 +119,25 @@ h2 div{
   color: white;
   text-shadow: 1px 1px black;
   font-size: x-large;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-align: center;
   align-items: center;
   align-self: center;
   align-content: center;
-
-  
-
 }
 
-.card .back{
-  transform:  perspective( 600px) rotateY(180deg);
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
   box-shadow: 0px -5px 5px #162522;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-
-
 }
 
-.card .back .button{
+.card .back .button {
   color: rgb(255, 255, 255);
   height: 50px;
   line-height: 50px;
@@ -164,20 +148,14 @@ h2 div{
   text-shadow: 1px 1px black;
 }
 
-
-.card .back h3{
+.card .back h3 {
   font-size: large;
-  margin-top:  20px;
-  letter-spacing:  2px;
+  margin-top: 20px;
+  letter-spacing: 2px;
   margin-bottom: 5px;
   color: #27d8ac;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  
-
-  
-  
-
 }
 .card .back p {
   color: white;
@@ -186,30 +164,24 @@ h2 div{
   text-align: justify;
   grid-area: a;
   font-size: medium;
-  font-family: 'Roboto', sans-serif;
-  
-
+  font-family: "Roboto", sans-serif;
 }
 
-.card:hover .front{
+.card:hover .front {
   transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back{
+.card:hover .back {
   transform: perspective(600px) rotateY(360deg);
 }
 
-
-
-#serviços h1{
+#serviços h1 {
   color: rgb(39, 216, 172);
   text-transform: uppercase;
   font-size: x-large;
 }
 
-
-
-#contato{
+#contato {
   padding: 25px 0px;
   margin-top: 100px;
   grid-area: c;
@@ -219,12 +191,10 @@ h2 div{
   scroll-behavior: smooth;
   text-transform: uppercase;
   font-size: x-large;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #4c5553;
-  
-
 }
-#contato p{
+#contato p {
   padding-top: 20px;
   color: white;
   background-color: #4c5553;
@@ -235,23 +205,22 @@ h2 div{
   font-weight: 500;
 }
 
-#contato i{
+#contato i {
   background-color: #4c5553;
 }
-#contato li{
+#contato li {
   text-align: left;
   margin: auto;
   width: 50%;
   padding-top: 20px;
   background-color: #4c5553;
   font-size: medium;
-  
 }
-#contato ul{
+#contato ul {
   background-color: #4c5553;
 }
 
-.trabalheconosco{
+.trabalheconosco {
   padding: 25px 0px;
   scroll-margin-top: 80px;
   margin-top: 50px;
@@ -261,13 +230,13 @@ h2 div{
   grid-area: w;
   text-transform: uppercase;
   font-size: x-large;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #4c5553;
 }
-.trabalheconosco h1{
+.trabalheconosco h1 {
   background-color: #4c5553;
 }
-.trabalheconosco h2{
+.trabalheconosco h2 {
   width: 50%;
   margin: auto;
   padding-top: 20px;
@@ -275,9 +244,9 @@ h2 div{
   font-size: medium;
   text-align: justify;
   background-color: #4c5553;
-  font-weight:500;
+  font-weight: 500;
 }
-.trabalheconosco p{
+.trabalheconosco p {
   text-align: left;
   margin: auto;
   width: 50%;
@@ -285,24 +254,20 @@ h2 div{
   background-color: #4c5553;
   font-size: medium;
 }
-.trabalheconosco i{
+.trabalheconosco i {
   background-color: #4c5553;
 }
 
-
-
-.rodape{
+.rodape {
   margin-top: 50px;
   height: 100px;
   background-color: rgb(32, 32, 32);
   grid-area: r;
- 
-
 }
-.conteiner{
+.conteiner {
   display: none;
 }
-.barra{
+.barra {
   width: 100%;
   margin: 0 auto;
   display: inline-block;
@@ -310,44 +275,37 @@ h2 div{
   position: fixed;
   top: 0px;
   box-shadow: 0px 0px 1px black;
-
 }
-.Logo img{
+.Logo img {
   position: absolute;
   padding-top: 10px;
-  padding-left: 13%;  
+  padding-left: 13%;
   z-index: 3;
 }
 
-
-
-.menulat{
+.menulat {
   padding-right: 10%;
   color: rgb(39, 216, 172);
-  
-  
 }
-nav ul{
-  transition: ease-in-out left .4s;
+nav ul {
+  transition: ease-in-out left 0.4s;
   float: right;
-  
-  
 }
 
-nav ul li{
+nav ul li {
   padding-left: 30px;
-  padding-top:  30px;
+  padding-top: 30px;
   padding-bottom: 20px;
   display: inline-block;
 }
-nav ul li a{
+nav ul li a {
   color: white;
-  font-size:medium;
-  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   padding-left: 10px;
 }
-.checkbtn{
+.checkbtn {
   font-size: 30px;
   float: right;
   margin-right: 15%;
@@ -355,126 +313,116 @@ nav ul li a{
   display: none;
   max-width: 100%;
 }
-#check{
+#check {
   display: none;
 }
-#check:checked ~ ul{
+#check:checked ~ ul {
   left: 50%;
 }
 
-#checkate{
+#checkate {
   display: none;
   margin: 0;
   padding: 0;
 }
 
-
-@media (max-width: 740px){
-
-  
-  #conteudo{
+@media (max-width: 740px) {
+  #conteudo {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "a l" 
-    "s s" 
-    "c c" 
-    "w w" 
-    "r r";
-    padding-top: 100px;  
+    grid-template-areas:
+      "a l"
+      "s s"
+      "c c"
+      "w w"
+      "r r";
+    padding-top: 100px;
   }
-  .logotipo p{
+  .logotipo p {
     width: 100%;
-    
   }
-  #apresentacao{
+  #apresentacao {
     width: 90%;
     margin: none;
     text-align: justify;
-    font-size:medium;
-    font-family: 'Roboto', sans-serif;
-  } 
+    font-size: medium;
+    font-family: "Roboto", sans-serif;
+  }
 
-  .button{
+  .button {
     background-color: none;
     border: none;
   }
-  .menulat{
+  .menulat {
     height: 100%;
     padding-left: 0%;
     color: rgb(39, 216, 172);
     z-index: 1;
-    
   }
-  #serviços{
+  #serviços {
     width: 100%;
     text-align: center;
     scroll-margin-top: 85px;
-    
-    
   }
-  .card{
+  .card {
     position: relative;
     width: 400px;
     height: 400px;
     display: inline-block;
-    
-    
   }
 
-  #contato{
+  #contato {
     scroll-margin-top: 80px;
-
-
   }
-  #contato p{
+  #contato p {
     width: 90%;
   }
-  #contato li{
+  #contato li {
     width: 90%;
   }
 
-  .trabalheconosco h1, .trabalheconosco h2, .trabalheconosco p{
+  .trabalheconosco h1,
+  .trabalheconosco h2,
+  .trabalheconosco p {
     width: 90%;
     margin: auto;
   }
 
-  
-  .Logo{
+  .Logo {
     display: none;
   }
-  .logotipo{
-  filter: none;
-}
-  nav ul{
+  .logotipo {
+    filter: none;
+  }
+  nav ul {
     position: fixed;
     top: 70px;
     background-color: #313131;
     height: 100vh;
     width: 100%;
     text-align: left;
-    left: 100%;    
+    left: 100%;
   }
-  
-  nav ul li{
+
+  nav ul li {
     display: block;
     margin: 0px 0px;
     padding: 0px 25px;
     line-height: 75px;
     border-bottom: 1px solid #27d8ac;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: medium;
   }
- 
-  #check:checked ~ ul{
+
+  #check:checked ~ ul {
     left: 50%;
   }
 
   /*Barra de navegação superior fixa com container*/
-  .conteiner{
+  .conteiner {
     width: 100%;
     margin: 0 auto;
-    display:grid;
+    display: grid;
     box-sizing: border-box;
     grid-template-columns: 1fr;
     grid-template-rows: 70px;
@@ -487,17 +435,15 @@ nav ul li a{
     box-shadow: 0px 0px 2px black;
     z-index: 1;
   }
-  header{
+  header {
     margin-left: 0vh;
     margin-top: 0vh;
-    
   }
-  #check:checked ~ ul{
+  #check:checked ~ ul {
     left: 50%;
     border: 1px solid #27d8ac;
-  
   }
-  .checkbtn_c{
+  .checkbtn_c {
     color: #27d8ac;
     font-size: 30px;
     float: right;
@@ -505,97 +451,90 @@ nav ul li a{
     margin-top: 20px;
     max-width: 100%;
   }
-  .Logo_c{
+  .Logo_c {
     margin-left: 50px;
     margin-top: 10px;
     max-width: 100%;
   }
-  #check_c{
+  #check_c {
     display: none;
   }
 }
-@media (max-width: 490px){
-  #serviços{
+@media (max-width: 490px) {
+  #serviços {
     text-align: center;
-  
   }
- 
-  .card{
+
+  .card {
     position: relative;
     width: 95%;
     height: 350px;
     margin: 50px 0px;
-    
   }
-  #conteudo{
+  #conteudo {
     margin: auto;
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 100px;  
-    grid-template-areas: 
-    "a a" 
-    "l l"
-    "s s" 
-    "c c" 
-    "w w" 
-    "r r";
+    padding-top: 100px;
+    grid-template-areas:
+      "a a"
+      "l l"
+      "s s"
+      "c c"
+      "w w"
+      "r r";
   }
-  #apresentacao{
+  #apresentacao {
     width: 90vw;
     margin: 0 auto;
   }
-  #contato h2{
+  #contato h2 {
     margin: 25px 10px;
   }
-  #contato h3{
+  #contato h3 {
     margin: 25px 10px;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: small;
+  }
 }
-
-}
-@media (max-width: 325px){
-
-  #conteudo{
+@media (max-width: 325px) {
+  #conteudo {
     margin: 0 auto;
     width: 90%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 100px;  
-    grid-template-areas: 
-    "a a" 
-    "l l"
-    "s s" 
-    "c c" 
-    "w w" 
-    "r r";
+    padding-top: 100px;
+    grid-template-areas:
+      "a a"
+      "l l"
+      "s s"
+      "c c"
+      "w w"
+      "r r";
   }
-    
 
-  nav ul li{
+  nav ul li {
     padding: 0px 10px;
   }
 
-  nav ul li a{
-  padding: 0px 10px;
-  font-size: small;
+  nav ul li a {
+    padding: 0px 10px;
+    font-size: small;
   }
 
-.card .front img{
-  width: 100%;
-  height: 100%;
+  .card .front img {
+    width: 100%;
+    height: 100%;
 
-  object-fit: fill;
-
+    object-fit: fill;
+  }
 }
-
-}
-@media (max-width: 250px){
-  *{
-  display:none;
-}
+@media (max-width: 250px) {
+  * {
+    display: none;
+  }
 }
