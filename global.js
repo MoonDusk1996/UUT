@@ -1,26 +1,11 @@
-const caixa = document.getElementById("check");
-        
-        function ativarCheckbox(el) {
-            el.checked = false;
-        }
+const menulateral = document.getElementById("check");
+const menudeatendimento = document.getElementById("checkate");
 
-        
-        ativarCheckbox(caixa);
-        console.log("Javascript rodando")
+DesativarCheckbox(menulateral, menudeatendimento);
 
-
-
-
-
-
-
-const caixa2 = document.getElementById("checkate");
-        
-        function ativarCheckbox2(el2) {
-            el2.checked = false;
-            
-        }
-
-        console.log("Javascript rodando2")
-        ativarCheckbox2(caixa2);
-        
+function ativarCheckbox(any) {
+  any.checked = false;
+}
+function ativarCheckbox2(any) {
+  any.checked = false;
+}
