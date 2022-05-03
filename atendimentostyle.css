@@ -1,13 +1,15 @@
-li li a{
+li li a {
   padding: 25px 200px;
   text-align: left;
 }
-.menudeplataformas{
+.menudeplataformas {
   display: none;
 }
-.atesite{
-  font-family: 'Roboto', sans-serif;
+.menudeplataformas button {
   text-transform: uppercase;
+}
+.atesite {
+  font-family: "Roboto", sans-serif;
   padding-left: 5px;
   font-weight: normal;
   border-bottom: none;
@@ -16,33 +18,46 @@ li li a{
   background-color: transparent;
 }
 
-
-.ate span{
+.ate span {
   display: none;
 }
-.atesite i{
+.atesite i {
   color: #27d8ac;
   display: inline-block;
   margin-right: 10px;
 }
-.ate i{
+.ate i {
   display: none;
 }
 
-#insta{
+#insta {
   color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   background-clip: text;
   -webkit-background-clip: text;
 }
-#zap{
+#zap {
   color: green;
 }
-#fm{
+#fm {
   color: blue;
 }
-.zap{
+.zap {
   background-color: white;
   border: none;
   text-decoration: none;
@@ -50,16 +65,14 @@ li li a{
   font-size: 16px;
 }
 
-
-
-.instagram{
+.instagram {
   background-color: white;
   border: none;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-.messenger{
+.messenger {
   background-color: white;
   border: none;
   text-decoration: none;
@@ -67,10 +80,10 @@ li li a{
   font-size: 16px;
 }
 
-@media (max-width: 740px){
-  .atesite{
+@media (max-width: 740px) {
+  .atesite {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     padding-left: 5px;
     font-weight: normal;
@@ -79,24 +92,23 @@ li li a{
     border: none;
     display: none;
   }
-  .ate span{
+  .ate span {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     padding-left: 5px;
     font-weight: normal;
     border-bottom: none;
     display: inline;
   }
-  .atesite i{
+  .atesite i {
     display: none;
   }
-  .ate i{
+  .ate i {
     display: inline-block;
-
   }
 
-  .menudeplataformas{
+  .menudeplataformas {
     position: fixed;
     top: 100%;
     left: 0;
@@ -104,31 +116,30 @@ li li a{
     background-color: white;
     display: block;
     color: black;
-    transition: .5s;
+    transition: 0.5s;
     margin: 0 auto;
-    
   }
-  
-.menudeplataformas i{
-  padding-right: 50px;
-}
-  .menudeplataformas nav{
+
+  .menudeplataformas i {
+    padding-right: 50px;
+  }
+  .menudeplataformas nav {
     background-color: white;
     margin-left: 3%;
     font-style: arial;
   }
-  .menudeplataformas ul, .menudeplataformas li, .menudeplataformas i, .menudeplataformas a{
+  .menudeplataformas ul,
+  .menudeplataformas li,
+  .menudeplataformas i,
+  .menudeplataformas a {
     background-color: white;
     color: black;
-
   }
-  .menudeplataformas i{
-    color:black
+  .menudeplataformas i {
+    color: black;
   }
 
-
-  #checkate:checked ~ .menudeplataformas{
+  #checkate:checked ~ .menudeplataformas {
     top: 50%;
   }
-
 }
