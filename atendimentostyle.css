@@ -49,9 +49,8 @@
     border-bottom: 1px solid #27d8ac;
   }
   li nav ul li a {
-    padding-right: 100%;
     text-decoration: none;
-      color: inherit;
+    color: inherit;
   }
 
   .atesite {
@@ -68,7 +67,7 @@
     display: none;
   }
   .ate i {
-    display: inline-block;
+    display: inline;
   }
 
   .menudeplataformas {
@@ -82,12 +81,13 @@
     transition: 0.5s;
   }
   .menudeplataformas button {
+    position: relative;
     text-transform: uppercase;
     background-color: white;
     border: none;
     text-decoration: none;
-    line-height: 70px;
-    outline: none;
+    padding: 50px 100%;
+    padding-left: 0;
   }
 
   .menudeplataformas i {
