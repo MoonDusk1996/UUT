@@ -16,7 +16,7 @@ function test(){
 
 //checkbox das barras qe vão se desativar
 function desativarcheckbox() {
-  
+  console.log("gatilho")
   menulateral.checked = false;
   menudeatendimento.checked = false;
 }
