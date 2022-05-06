@@ -1,16 +1,30 @@
 const menulateral = document.getElementById("check");
 const menudeatendimento = document.getElementById("checkate");
-var corpo = document.getElementById("checkate");
+const corpo = document.getElementById("conteudo");
+const barralateral = document.getElementById("idbarra");
+var checkAtendimento = document.querySelector("#checkate")
 
 ativarCheckbox(menulateral);
 ativarCheckbox2(menudeatendimento);
 
-function ativarCheckbox(any) {
-  any.checked = false;
+
+
+
+function teste(checkbox){
+if(checkbox.checked){
+  corpo.style.opacity = "0.5"
+  barralateral.style.opacity = "0.5"
+
+
 }
-function ativarCheckbox2(el2) {
-  el2.checked = false;
+else{
+  console.log("false")
+  corpo.style.opacity = "1"
+  barralateral.style.opacity = "1"
+}
 }
 
-console.log(corpo.checked);
+
+
+
 
