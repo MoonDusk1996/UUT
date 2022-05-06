@@ -103,7 +103,7 @@
     background-color: white;
     color: black;
   }
-
+  
   #checkate:checked ~ .menudeplataformas {
     top: 60%;
   }
