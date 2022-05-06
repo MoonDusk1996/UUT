@@ -1,3 +1,4 @@
+
 #servicescontent {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,5 +121,24 @@
     width: 95%;
     height: auto;
   }
+.servicesapre{
+  width: 75%;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  margin: 0 auto;
+
+}
+
+.servicesaprepremium{
+  width: 75%;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  margin: 0 auto;
+
+}
 
 }
