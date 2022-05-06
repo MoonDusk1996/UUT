@@ -14,7 +14,7 @@
 <body>
     
     <!--container-->
-    <div class="conteiner"  id = "idbarra">
+    <div class="conteiner">
         <header>
             <input type="checkbox" id="check_c">
             <label for="check" class="checkbtn_c">
@@ -30,7 +30,7 @@
        <label for="check" class="checkbtn">
            <i class="fas fa-bars"></i>
        </label>
-        <label class="Logo" onclick="ativarCheckbox(menulateral)">
+        <label class="Logo">
                 <a href="Index.html"> <img src="Images/Logo_50px.png" alt=""></a>
         </label>
 
@@ -39,7 +39,7 @@
 
             <li>
                 <nav class = "ate">
-                    <input type="checkbox" id="checkate" onchange="teste(this)">
+                    <input type="checkbox" id="checkate" onchange="menuEffect(this)">
                     <label for="checkate" class="checkbtnate">
                         <i class="fa-solid fa-robot"></i><span>Atendimento</span>
                     </label>
@@ -86,7 +86,7 @@
     </nav>
 
     <!--conteúdo da pagina inicial-->
-    <div id="conteudo" onclick="desativarcheckbox()">
+    <div id="conteudo" onclick="desativarcheckbox(); menuEffect(this)">
         <div class="logotipo"> 
             <img src="Images/u.u.png" alt="" a hef="Index.html"> 
             <p>Temos o objetivo de oferecer um serviço <span>acessível</span>, bastante <span>amigável</span> e <span>humanizado</span> para todos os públicos.</p>

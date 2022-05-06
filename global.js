@@ -1,30 +1,19 @@
 const menulateral = document.getElementById("check");
 const menudeatendimento = document.getElementById("checkate");
 const corpo = document.getElementById("conteudo");
-const barralateral = document.getElementById("idbarra");
-var checkAtendimento = document.querySelector("#checkate")
 
-function desativarcheckbox(){
-  console.log("gatilho")
+//checkbox das barras qe vão se desativar
+function desativarcheckbox() {
+  menulateral.checked = false;
+  menudeatendimento.checked = false;
 }
 
-
-
-function teste(checkbox){
-if(checkbox.checked){
-  corpo.style.opacity = "0.5"
-  barralateral.style.opacity = "0.5"
-
-
+//efeito escuro quando os checkbox do menu de atendimento se ativar
+function menuEffect(checkbox) {
+  if (checkbox.checked) {
+    corpo.style.filter = "brightness(0.5)";
+  } else {
+    console.log("false");
+    corpo.style.filter = "brightness(1)";
+  }
 }
-else{
-  console.log("false")
-  corpo.style.opacity = "1"
-  barralateral.style.opacity = "1"
-}
-}
-
-
-
-
-
