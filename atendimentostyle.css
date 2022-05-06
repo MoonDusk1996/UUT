@@ -104,9 +104,6 @@
     color: black;
   }
 
-  .menudeplataformas li {
-    border-bottom: 1px solid #27d8ac;
-  }
   #checkate:checked ~ .menudeplataformas {
     top: 60%;
   }
