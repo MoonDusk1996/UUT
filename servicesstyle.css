@@ -1,4 +1,4 @@
-.servicescontent {
+#servicescontent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -90,18 +90,21 @@
 }
 
 @media (max-width: 790px) {
-  .servicescontent {
+  #servicescontent {
     grid-template-columns: 1fr;
     grid-template-areas:
       "t"
       "i"
       "a"
       "p";
-    width: 95%;
+    width: 100%;
     gap: 50px;
-    margin-top: 100px;
     padding: 0;
     margin-bottom: 100px;
+    margin-top: 0;
+  }
+  h1{
+    margin-top: 100px;
   }
   .illustrationpag {
     margin: 0 auto;
@@ -113,4 +116,9 @@
   .textotitulo {
     font: large;
   }
+  .textotitulo h1 {
+    width: 95%;
+    height: auto;
+  }
+
 }
