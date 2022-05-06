@@ -4,9 +4,9 @@ const corpo = document.getElementById("conteudo");
 const barralateral = document.getElementById("idbarra");
 var checkAtendimento = document.querySelector("#checkate")
 
-ativarCheckbox(menulateral);
-ativarCheckbox2(menudeatendimento);
-
+function desativarcheckbox(){
+  console.log("gatilho")
+}
 
 
 
