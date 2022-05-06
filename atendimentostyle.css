@@ -46,7 +46,6 @@
   li nav ul li {
     border: none;
     line-height: 0px;
-    border-bottom: 1px solid #27d8ac;
   }
   li nav ul li a {
     text-decoration: none;
@@ -104,10 +103,10 @@
     background-color: white;
     color: black;
   }
-  .menudeplataformas i {
-    color: black;
-  }
 
+  .menudeplataformas li {
+    border-bottom: 1px solid #27d8ac;
+  }
   #checkate:checked ~ .menudeplataformas {
     top: 50%;
   }
