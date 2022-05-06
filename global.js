@@ -1,9 +1,10 @@
 const menulateral = document.getElementById("check");
 const menudeatendimento = document.getElementById("checkate");
 const corpo = document.getElementById("conteudo");
-
+const corpoServicos = document.getElementById("servicescontent");
+console.log(corpoServicos);
 function test() {
-  console.log(menulateral.checked);
+  
   if (menulateral.checked == true) {
     menudeatendimento.checked = false;
     corpo.style.filter = "brightness(1)";
@@ -21,8 +22,10 @@ function desativarcheckbox() {
 function menuEffect(checkbox) {
   if (checkbox.checked) {
     corpo.style.filter = "brightness(0.5)";
+    corpoServicos.style.filter = "brightness(0.5)";
   } else {
     corpo.style.filter = "brightness(1)";
+    corpoServicos.style.filter = "brightness(1)";
   }
 }
 

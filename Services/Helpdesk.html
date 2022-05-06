@@ -18,8 +18,8 @@
     <!--container-->
     <div class="conteiner">
       <header>
-        <input type="checkbox" id="check_c" />
-        <label for="check" class="checkbtn_c">
+        <input type="checkbox" id="check_c">
+        <label for="check" class="checkbtn_c" onclick="test()">
           <i class="fas fa-bars"></i>
         </label>
         <div class="Logo_c">
@@ -115,10 +115,7 @@
       </ul>
     </nav>
 
-    <div
-      class="servicescontent"
-      onclick="ativarCheckbox(caixa), ativarCheckbox2(caixa2)"
-    >
+    <div class="servicescontent" id="servicescontent" onclick="desativarcheckbox(); menuEffect(this)">
       <div class="illustrationpag">
         <img src="../Images/IMAGENS-assets/Helpdesk.png" alt="" />
       </div>
