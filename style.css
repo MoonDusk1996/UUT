@@ -29,20 +29,18 @@
   grid-area: l;
   text-align: center;
   padding-top: 50px;
-  font-size: medium;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
   width: 75%;
   margin: auto;
   align-items: center;
   align-self: center;
   align-content: center;
-  line-height: 25px;
 }
 .logotipo p {
   color: white;
   margin-top: 50px;
+  font-size: 18px;
 }
 
 .logotipo span {
@@ -192,6 +190,7 @@ h2 div {
   font-size: x-large;
   font-family: "Roboto", sans-serif;
   background-color: #4c5553;
+  font-weight: bold;
 }
 #contato p {
   padding-top: 20px;
@@ -345,6 +344,7 @@ nav ul li a {
     text-align: justify;
     font-size: medium;
     font-family: "Roboto", sans-serif;
+    font-size: 14px;
   }
 
   .button {
