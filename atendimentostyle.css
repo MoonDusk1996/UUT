@@ -1,12 +1,49 @@
 .menudeplataformas {
   display: none;
 }
+.Dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: none;
+  
+}
+.dropdown-conteudo{
+  display: none;
+  position: absolute;
+  border-radius: 5px 5px 5px 5px;
+}
 
 .atesite {
-  border-bottom: none;
+  padding: 10px 10px;
+  cursor: pointer;
   border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: medium;
+
+}
+.Dropdown:hover .dropdown-conteudo {
   display: block;
-  background-color: transparent;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.atesite:hover{
+  background-color: #3e5f57;
+  border-radius: 5px 5px 5px 5px;
+}
+.atesite:hover i{
+
+    background-color: #3e5f57;
+
+}
+.dropdown-conteudo a {
+  color: rgb(255, 255, 255);
+  padding: 12px 57.5px;
+  text-decoration: none;
+  display: block;
+  background-color: #717e7b;
+  border-top: 0.1px solid rgb(0, 0, 0);
 }
 
 .ate span {
@@ -47,11 +84,15 @@
     border: none;
     line-height: 0px;
   }
+
+
   li nav ul li a {
     text-decoration: none;
     color: inherit;
   }
-
+.Dropdown{
+  display: none;
+}
   .atesite {
     display: none;
   }
