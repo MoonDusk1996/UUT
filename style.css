@@ -206,6 +206,7 @@ h2 div {
 
 #contato i {
   background-color: #4c5553;
+  
 }
 #contato li {
   text-align: left;
@@ -217,6 +218,7 @@ h2 div {
 }
 #contato ul {
   background-color: #4c5553;
+  font-weight: lighter;
 }
 
 .trabalheconosco {
@@ -255,6 +257,7 @@ h2 div {
 }
 .trabalheconosco i {
   background-color: #4c5553;
+
 }
 
 .rodape {
