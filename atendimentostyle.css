@@ -13,6 +13,7 @@
   border-radius: 5px 5px 5px 5px;
 }
 
+
 .atesite {
   padding: 10px 10px;
   cursor: pointer;
@@ -34,17 +35,25 @@
 }
 .atesite:hover i{
 
-    background-color: #3e5f57;
+  background-color: #3e5f57;
+  
 
 }
 .dropdown-conteudo a {
   color: rgb(255, 255, 255);
-  padding: 12px 57.5px;
+  padding: 12px 20.5px;
   text-decoration: none;
   display: block;
   background-color: #717e7b;
   border-top: 0.1px solid rgb(0, 0, 0);
 }
+.dropdown-conteudo i{
+  color: #27d8ac;
+  background-color: transparent;
+  display: inline;
+  padding-right: 10px;
+}
+
 
 .ate span {
   display: none;
