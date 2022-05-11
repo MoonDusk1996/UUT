@@ -21,8 +21,7 @@
     "a l"
     "s s"
     "c c"
-    "w w"
-    "r r";
+    "w w";
   z-index: 0;
 }
 .logotipo {
@@ -233,6 +232,7 @@ h2 div {
   font-size: x-large;
   font-family: "Roboto", sans-serif;
   background-color: #4c5553;
+  margin-bottom: 100px;
 }
 .trabalheconosco h1 {
   background-color: #4c5553;
@@ -260,12 +260,7 @@ h2 div {
 
 }
 
-.rodape {
-  margin-top: 50px;
-  height: 100px;
-  background-color: rgb(32, 32, 32);
-  grid-area: r;
-}
+
 .conteiner {
   display: none;
 }
@@ -335,8 +330,7 @@ nav ul li a {
       "a l"
       "s s"
       "c c"
-      "w w"
-      "r r";
+      "w w";
     padding-top: 100px;
   }
   .logotipo p {
@@ -486,9 +480,8 @@ nav ul li a {
       "l l"
       "s s"
       "c c"
-      "w w"
-      "r r";
-  }
+      "w w";  
+    }
   #apresentacao {
     width: 90vw;
     margin: 0 auto;
@@ -516,8 +509,7 @@ nav ul li a {
       "l l"
       "s s"
       "c c"
-      "w w"
-      "r r";
+      "w w";
   }
 
   nav ul li {
