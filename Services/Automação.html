@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5f0af59db5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../Images/Logo_50px.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../servicesstyle.css" />
+    <link rel="stylesheet" href="../atendimentostyle.css" />
+    <title>Automação residencial e empresarial</title>
+  </head>
+  <body>
+    <!--container-->
+    <div class="conteiner">
+      <header>
+        <input type="checkbox" id="check_c">
+        <label for="check" class="checkbtn_c" onclick="ambhd()">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="Logo_c">
+          <img
+            src="https://moondusk1996.github.io/UUT/Images/Logo_50px.png"
+            alt="Logotipo Ultra Utility"
+          />
+        </div>
+      </header>
+    </div>
+
+    <nav class="barra">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="Logo"
+        ><img
+          src="https://moondusk1996.github.io/UUT/Images/Logo_50px.png"
+          alt="Logotipo Ultra Utility"
+        />
+      </label>
+
+      <!--Menu lateral-->
+      <ul class="menulat">
+        <li>
+          <i class="fa-solid fa-house"></i
+          ><a class="#" href="https://moondusk1996.github.io/UUT/" rel="next"
+            >início</a
+          >
+        </li>
+        <li>
+          <nav class="ate">
+            <input type="checkbox" id="checkate" onchange="menuEffectService(this)" />
+            <label for="checkate" class="checkbtnate">
+              <i class="fa-solid fa-robot"></i><span>Atendimento</span>
+            </label>
+
+            <ul class="menudeplataformas">
+              <nav>Onde você gostaria de ser atendido?</nav>
+              <li>
+                <a href="https://wa.me/5592985822079" target="_blank"
+                  ><button>
+                    <i class="fa-brands fa-whatsapp" id="zap"></i>Whatsapp
+                  </button></a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/u.u_technology/"
+                  target="_blank"
+                  ><button>
+                    <i class="fa-brands fa-instagram" id="insta"></i>Instagram
+                  </button></a
+                >
+              </li>
+
+              <li>
+                <a href="https://www.messenger.com/t/uutec" target="_blank"
+                  ><button>
+                    <i class="fa-brands fa-facebook-messenger" id="fm"></i
+                    >Messenger
+                  </button></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="Dropdown">
+            <button class="atesite"><i class="fa-solid fa-robot"></i>Atendimento </button>
+            <div class=" dropdown-conteudo">
+                <a href="https://wa.me/5592985822079" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                <a href="https://www.instagram.com/u.u_technology/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://www.messenger.com/t/uutec" target="_blank"><i class="fa-brands fa-facebook-messenger"></i>messenger</a>
+            </div>
+        </div>
+        </li>
+        <li>
+          <i class="fa-solid fa-briefcase"></i
+          ><a
+            class="active"
+            href="https://moondusk1996.github.io/UUT/#serviços"
+            rel="next"
+            >serviços</a
+          >
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i
+          ><a
+            class="#"
+            href="https://moondusk1996.github.io/UUT/#contato"
+            rel="next"
+            >contato</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div id="servicescontent" onclick="desativarcheckbox(); menuEffectService(this)">
+      <div class="illustrationpag">
+        <img src="../Images/IMAGENS-assets/backup.png" alt="" />
+      </div>
+      <div class="textotitulo">
+        <h1>
+            Segurança, praticidade, conforto e produtividade.
+        </h1>
+      </div>
+      <div class="servicesapre">
+        <h2><i class="fa-solid fa-user"></i>Soluções para residencias</h2>
+        <h3>
+            Não são apenas a comodidade e o conforto que têm destaque na automação residencial, segurança e até sustentabilidade também fazem parte dessa equação. Entre em contato conosco, tentaremos entender melhor suas necessidades e com isso conseguirmos prestar o melhor serviço possível.
+            
+        </h3>
+        <h4>
+    
+        </h4>
+      </div>
+
+      <div class="servicesaprepremium">
+        <h2><i class="fa-solid fa-building"></i>Para seu negócio</h2>
+        <h3>
+          Aqui focaremos em duas coisas primordiais. <span>Produtividade</span> e <span>Segurança</span>.
+          além de entendermos as necessidades se sua empresa focaremos em como podemos aumentar a produtividade e a segurança.
+        </h3>
+      </div>
+    </div>
+
+    <script src="../global.js"></script>
+  </body>
+</html>
