@@ -52,6 +52,21 @@
   grid-area: a;
   box-shadow: 0px -1px 5px #27d8ac;
   padding: 25px;
+
+}
+.servicesapre ol{
+  padding-left: 10%;
+  
+}
+.servicesapre ol li{
+  list-style-type: decimal;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+.servicesaprepremium ol li{
+  list-style-type: circle;
+  padding-top: 5px;
+  text-transform: uppercase;
 }
 .servicesapre i {
   padding: 0 10px;
@@ -67,7 +82,6 @@
 }
 
 .servicesapre h3 {
-  margin-bottom: 100px;
   text-align: justify;
 }
 
