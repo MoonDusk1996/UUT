@@ -79,7 +79,7 @@ function moveTouch(e) {
 
   if (Math.abs(diffX) > Math.abs(diffY)) {
     // sliding horizontally
-    if (diffX > 0) {
+    if (diffX > 10) {
       // swiped left
       console.log("swiped left");
       menulateral.checked = true
